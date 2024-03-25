@@ -7,7 +7,7 @@ int main()
                  "you'd like to use."<< '\n' << "The options are: Addition, "
                  "Subtraction, Multiplication, and Division." << '\n';
 
-    char choice;
+    char choice{};
     std::cin >> choice;
 
 
